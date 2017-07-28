@@ -1,6 +1,10 @@
 # Java工具类
 
-## 基本工具类
+## 介绍
+
+   为了工作上能够高效快速开发,利用空闲时间,收集Java常用的工具类,如有错误请提交Issues,提交新的代码,请到Pull requests,谢谢合作.
+
+> 工具类列表如下:   
 ### [转换工具类](/base/ConvertUtils.java)
 
 * strToInt(String str, int value) //String转换为int
@@ -63,3 +67,16 @@
 
 * bean2MapObject(Object object) //Bean转换为Map
 * map2Bean(Map map,Object object) //Map转换为Java Bean
+
+
+## 致谢
+
+* 感谢提供工具类的大神们,@chenssy,@xuan排名不分先后
+
+## 说明
+ 
+ * 此工具类长期更新
+
+ ## 更新说明 
+
+ * 2017-07-28　　项目初立
