@@ -25,5 +25,11 @@
 * accountantMoney(BigDecimal money) //将人民币转换为会计格式金额(xxxx,xxxx,xxxx.xx),保留两位小数
 * getFormatMoney(BigDecimal money,int scale,double divisor) //格式化金额，显示为xxx万元，xxx百万,xxx亿
 
+### [正则表态式工具类](/base/RegexUtils.java)
 
+* find(String str, String regex) //判断字符串是否符合正则表达式
+* isEmail(String email) //判断输入的字符串是否符合Email格式
+* isChinese(String value) //判断输入的字符串是否为纯汉字
+* isDouble(String value) //判断是否为浮点数,包括double和float
+* isInteger(String value) //判断是否为整数
 
