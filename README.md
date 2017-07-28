@@ -1,7 +1,7 @@
 # Java工具类
 
 ## 基本工具类
-### [转换工具类](/base/ConverUtils.java)
+### [转换工具类](/base/ConvertUtils.java)
 
 * strToInt(String str, int value) //String转换为int
 * strToLong(String str, long value) //String转换为long
@@ -16,5 +16,14 @@
 * sqlDateToDate(Date date) //sqldate 转换为 date
 * dateToSqlTimestamp(Date date) //date 转换为 timestamp
 * qlTimestampToDate(Timestamp date) // timestamp 转换为 date
+
+### [身份证合法性](/base/IdcardValidator.java)
+
+### [金钱处理工具类](/base/MoneyUtils.java)
+
+* number2CNMontry(String numberOfMoney) //人民币转换为大写
+* accountantMoney(BigDecimal money) //将人民币转换为会计格式金额(xxxx,xxxx,xxxx.xx),保留两位小数
+* getFormatMoney(BigDecimal money,int scale,double divisor) //格式化金额，显示为xxx万元，xxx百万,xxx亿
+
 
 
