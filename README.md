@@ -21,7 +21,7 @@
 * dateToSqlTimestamp(Date date) //date 转换为 timestamp
 * qlTimestampToDate(Timestamp date) // timestamp 转换为 date
 
-### [身份证合法性](/base/IdcardValidator.java)
+### [身份证合法性](/base/IdcardValidator.java)(最严谨的方式)
 
 ### [金钱处理工具类](/base/MoneyUtils.java)
 
@@ -68,6 +68,35 @@
 * bean2MapObject(Object object) //Bean转换为Map
 * map2Bean(Map map,Object object) //Map转换为Java Bean
 
+### [AES加解密](/encrypt/AESUtils.java)
+
+* decrypt(String encryptValue, String key) //AES解密
+* encrypt(String value, String key) //AES加密
+
+### [BASE64加解密工具类](/encrypt/Base64Utils.java) 
+
+* encrypt(byte[] data) //BASE64加密
+* decrypt(String str) //BASE64解密
+
+### [DESC加解密工具类](/encrypt/DESUtils.java)
+
+* encrypt(String data, String key) //DES加密
+* decrypt(String cryptData,String key) //DES解密
+
+### [加解密工具类](/encrypt/EncryptAndDecryptUtils.java)
+
+* md5Encrypt(String value) //MD5加密
+* shaEncrypt(String value) //SHA加密
+* base64Encrypt(String value) //Base64加密
+* base64Decrypt(String value) //Base64解密
+* desEncrypt(String value,String key) //DES加密
+* desDecrypt(String value,String key) //DES解密
+* aesEncrypt(String value,String key) //AES加密
+* aesDecrypt(String value,String key) //AES解密
+
+### [MD5加密](/encrypt/MD5Utils.java)
+
+* encrypt(String value,String key) //MD5加密 
 
 ## 致谢
 
