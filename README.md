@@ -78,7 +78,7 @@
 * encrypt(byte[] data) //BASE64加密
 * decrypt(String str) //BASE64解密
 
-### [DESC加解密工具类](/encrypt/DESUtils.java)
+### [DES加解密工具类](/encrypt/DESUtils.java)
 
 * encrypt(String data, String key) //DES加密
 * decrypt(String cryptData,String key) //DES解密
@@ -100,7 +100,9 @@
 
 ## 致谢
 
-* 感谢提供工具类的大神们,@chenssy,@xuan排名不分先后
+* 感谢提供工具类的大神们,@chenssy,@xuan
+
+排名不分先后
 
 ## 说明
  
@@ -110,3 +112,4 @@
 
  * 2017-07-28　　项目初立
  * 2017-07-31   更新加密工具类
+ * 2017-07-31   重构工具类
