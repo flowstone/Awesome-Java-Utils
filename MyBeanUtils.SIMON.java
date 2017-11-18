@@ -1,4 +1,4 @@
-package cn.itcast.day37anli.utils;
+package org.xueyao.utils;
 
 import java.util.Map;
 

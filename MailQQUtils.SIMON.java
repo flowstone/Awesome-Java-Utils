@@ -18,7 +18,7 @@ public class MailQQUtils {
 	 */
 	public static void send(String to, String subject, String msgText) {
 		//发邮件的地址
-		String from = "xxxxx@qq.com"; 
+		String from = "931330220@qq.com"; 
 		String password = "授权码";
 		//邮件发送服务器地址
 		String host = "smtp.qq.com"; 
@@ -59,7 +59,7 @@ public class MailQQUtils {
 		}
 	}
 	public static void main(String[] args) {
-		String to = "目标邮箱地址";
+		String to = "18896544516@163.com";
 		String subject = "如何学习?";
 		String msgText = "解决学习困扰,就是天天晚上熬夜学习";
 		MailQQUtils.send(to, subject, msgText);

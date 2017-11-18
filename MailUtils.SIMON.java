@@ -1,4 +1,4 @@
-package cn.itcast.utils;
+package me.xueyao.utils;
 
 import java.util.Date;
 import java.util.Properties;

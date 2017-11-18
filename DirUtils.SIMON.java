@@ -1,4 +1,4 @@
-package cn.itcast.utils;
+package me.xueyao.utils;
 /**
 * 根据文件名目录打散工具类
 */
